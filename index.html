@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"> 
+    <title>VINYLHUB | Homepage</title> 
+	<link href="https://fonts.googleapis.com/css?family=Arvo|Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:bolder" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+  </head>
+  
+<body>
+
+<img src="images/record.svg" alt="Record" class="rotation" id="leftTopRecord">
+<img src="images/record.svg" alt="Record" class="rotation" id="rightTopRecord">
+
+<div id="siteContainer">
+	<header>
+	<h2 class="displayNone">Website Header</h2>
+	<!-- SECTIONING ELEMENT -->
+		<div id="logo">
+			<img src="images/logo.png" alt="VinylHub Logo">
+		</div>
+		<nav>
+		<h2 class="displayNone">Website Navigation</h2>
+		<!-- SECTIONING ELEMENT -->
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+
+		<div id="topHeader"></div>
+		<div id="bottomHeader"></div>
+	</header>
+
+	<main id="indexMain">	
+	<h2 class="displayNone">Body of Website Content</h2>
+	<!-- SECTIONING ELEMENT -->
+		<section id="promo">
+		<h2 class="displayNone">Main Promotional Image</h2>
+		<!-- SECTIONING ELEMENT -->
+			<img src="images/outside.png" alt="Outside the store">
+		</section>
+
+		<section id="rarities">
+			<div id="raritiesText" class="clearFix">
+				<h2 class="subHeader">Check out our In-Store Rarities</h2>
+			</div>
+
+			<div id="rarityWrap">
+				<h2 class="displayNone">Our In-Store Rarities</h2>
+				<!-- SECTIONING ELEMENT -->
+				<div id="rarity1">
+					<img src="images/rarity1.jpg" alt="DAMN album art">
+					<h2 class="subHeader2">DAMN. (2017)</h2>
+					<h2 class="bodyText">This modern Hip Hop classic, penned by Kendrick Lamar, released to massive critical acclaim. Come on down to check out this “Damn Red” vinyl, with an outer sleeve signed by “K.Dot” Lamar.</h2>
+				</div>
+
+				<div id="rarity2">
+					<h2 id="rar2edgeCase">White Lighter (2013)</h2>
+					<h2 class="bodyText">Released in 2013, Typhoon’s “White Lighter” was a seminal moment in Indie Rock history. Come into our store to see this Blood Red vinyl printing, signed by lead singer Kyle Morton himself.</h2>
+					<img src="images/rarity2.jpg" alt="White Lighter album art">
+				</div>
+
+				<div id="rarity3">
+					<img src="images/rarity3.jpg" alt="Herb Alpert album art">
+					<h2 class="subHeader2">Going Places!! (1965)</h2>
+					<h2 class="bodyText">This 1960’s obscurity features the hit single “Spanish Flea”, one of the rare songs that everybody’s heard, but nobody seems to know the name of. Check out this wax rarity in store today!</h2>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div id="topFooter"></div>
+		<div id="bottomFooter">
+			<h2 class="copyRight">copyright Brendan Rogers 2018</h2>
+			<div id="bottomNav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+</div>
+
+<img src="images/record.svg" alt="Record" class="rotation" id="rightBottomRecord">
+<img src="images/record.svg" alt="Record" class="rotation" id="leftBottomRecord">
+
+<!-- at the bottom so the DOM gets built first, avoiding errors -->
+<script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
