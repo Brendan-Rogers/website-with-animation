@@ -1,0 +1,386 @@
+@charset "UTF-8";
+
+/* Tools */
+.displayNone { 
+	/*hides target*/
+	display: none;  }
+.hidden { 
+	/*hides target*/
+	visibility: hidden; }
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both; }
+
+/*Body Knowledge*/
+#siteContainer  {
+	margin: 0 auto;
+	width: 920px;
+	background-color: white;
+	filter: drop-shadow(0px 0px 10px black); }
+#indexMain {
+	height: 950px;
+	width: 920px; }
+#aboutMain {
+	/* set height of main background */
+	height: 1350px; }
+#contactMain { 
+	/* set height for main background */
+	height: 850px; }
+body {
+	/* apply subtle tiling background */
+	background: url(../images/background.png); }
+
+/* ANIMATION - ROTATION */
+.rotation {
+  animation-name: record;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+@keyframes record {
+	0% {transform: rotate(0deg);}
+	100% {transform: rotate(360deg);} }
+#leftTopRecord {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 100px;
+	height: 100px; }
+#rightTopRecord {
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px; }
+#rightBottomRecord {
+	width: 100px;
+	height: 100px;
+	float: right;
+	margin-right: 20px; }
+#leftBottomRecord {
+	width: 100px;
+	height: 100px;
+	float: left;
+	margin-right: 500px;
+	margin-left: 20px;
+	margin-top: -60px; }
+
+/*Texts*/
+.subHeader {
+	font-family: Open Sans, sans-serif;
+	font-size: 40px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #ff481f; }
+.subHeader2 {
+	font-family: Open Sans, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #ff481f; }
+.formHead {
+	font-family: Open Sans, sans-serif;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #79B29B; }
+.bodyText {
+	font-family: Open Sans, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #191C1B; }
+
+/* CONTACT CONTENT */
+#contactTitle {
+	float: left;
+	/* set margins */
+	margin-left: 75px;
+	margin-top: 40px; }
+#contactArea {
+	clear: both;
+	float: left;
+	margin-top: 10px;
+	margin-left: 75px; }
+#contactForm input {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 15px;
+	background-color: #fff;
+	border: 6px solid black; }
+#contactForm textarea {
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 300px;
+	height: 45px;
+	background-color: #fff;
+	border: 6px solid black; }
+#submit {
+	width: 175px !important;
+	height: 50px !important;
+	background-color: #ffe8e2 !important;
+	padding: 5px 10px 5px 10px !important;
+	color: black !important;
+	font-weight: bold !important;
+	font-size: 15px !important;
+	margin-top: 30px !important;
+	border: 6px solid black !important; }
+#mapArea {
+	float: right;
+	width: 380px;
+	height: 400px;
+	/* positioning */
+	margin-top: 45px;
+	margin-right: 75px; }
+#mapLayer1 {
+	overflow:hidden;
+	resize:none;
+	max-width:100%;
+	width:380px;
+	height:400px; }
+#mapLayer2 {
+	height:100%;
+	width:100%;
+	max-width:100%; }
+#mapLayer3 {
+	height:100%;
+	width:100%;
+	border:0; }
+#miniPromotion {
+	float: left;
+	clear: both;
+	/* positioning */
+	margin-top: 30px;
+	margin-left: 75px; }
+.miniPromo {
+	width: 180px;
+	height: 180px;
+	float: left;
+	margin-right: 17px; }
+
+/* ABOUT CONTENT */
+#missionTitle {
+	float: left;
+	display: block;
+	margin-top: 25px;
+	margin-left: 75px;
+	margin-bottom: 10px; }
+#missionText {
+	float: left;
+	display: block;
+	width: 360px;
+	margin-top: 20px;
+	margin-left: 90px; }
+#promotional {
+	float: right;
+	margin-right: 75px; }
+#promotional img {
+	width: 360px;
+	height: 240px; }
+#staffTitle {
+	float: left;
+	margin-top: 20px;
+	margin-left: 75px;
+	margin-bottom: 25px;
+	width: 840px;
+	clear: none; }
+.employee {
+	float: left;
+	width: 350px;
+	height: 450px; }
+.employee img {
+	width: 350px;
+	height: 350px; }
+.employee .subHeader2 {
+	font-size: 35px !important;
+	line-height: 1.2 !important;
+	margin-bottom: -20px; }
+.employee .bodyText {
+	font-size: 25px !important;
+	padding-left: 15px !important; }
+#employee1, #employee3 {
+	float: left;
+	margin-left: 75px;
+	margin-right: 70px; }
+#employee2, #employee4 {
+	float: left;
+	margin-right: 75px; }
+
+/* INDEX CONTENT */
+#promo img {
+	width: 720px;
+	height: 280px;
+	margin-top: 50px;
+	margin-left: 100px;
+	float: left; }
+#raritiesText {
+	float: left;
+	height: 60px;
+	margin-top: 25px;
+	margin-left: 50px; }
+#rarityWrap {
+	float: left;
+	width: 920px;
+	margin-top: 20px; }
+#rarity1 .subHeader2 {
+	margin-left: 25px;
+	margin-top: 270px; }
+#rarity1 .bodyText{
+	margin-left: 25px;
+	margin-top: 10px; }
+#rarity3 .subHeader2 {
+	margin-left: 25px;
+	margin-top: 270px; }
+#rarity3 .bodyText {
+	margin-left: 25px;
+	margin-top: 10px; }
+#rar2edgeCase {
+	/* for some reason this was interfering with all other subHeader2s. applied a nasty hotfix */
+	/* move the subheader */
+	margin-left: 25px;
+	/* style the text as a subHeader2 */
+	font-family: Open Sans, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #ff481f; }
+#rarity2, .bodyText  {
+	margin-left: 25px;
+	margin-top: 10px; }
+#rarity1, #rarity2, #rarity3 {
+	float: left;
+	width: 300px;
+	margin-left: 5px; }
+#rarity1 img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin-left: 25px; }
+#rarity2 img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin-left: 25px;
+	margin-top: 10px; }
+#rarity3 img {
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin-left: 25px; }
+
+/* HEADER */
+#topHeader {
+	width: 920px;
+	height: 180px;
+	background-color: #ff481f; }
+#bottomHeader {
+	width: 920px;
+	height: 60px;
+	background-color: #ffc4b6; }
+header {
+	/* define the height */
+	height: 240px; }
+#logo img {
+	height: 240px;
+	/* negative margin-top due to .png cropping issues */
+	margin: -4px 0 0 35px;
+	position: relative;
+	float: left; }
+nav {
+	width: 480px;
+	margin-top: 140px;
+	margin-left: 125px;
+	position: relative;
+	float: left; }
+nav ul {
+	/* remove bullets*/
+	list-style-type: none;
+	float: left; }
+nav ul li {
+	/* left to right items */
+	display: inline;
+	/* space between items */
+	margin-right: 20px; }
+nav ul li a {
+	font-family: Open Sans, Helvetica, sans-serif;
+	font-size: 30px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bolder;
+	color: white;
+	padding: 5px;
+	/* remove link decoration */
+	text-decoration: none; 
+	transition: color 0.25s;}
+nav ul li a:hover {
+	/* this is that wierd blue link color */
+	color: #71B29B; }
+
+/* FOOTER */
+#topFooter {
+	width: 920px;
+	height: 60px;
+	background-color: #ff481f; }
+#bottomFooter {
+	width: 920px;
+	height: 60px;
+	float: left;
+	background-color: #ffc4b6; }
+.copyRight {
+	font-family: Open Sans, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #FFF;
+	/* POSITIONING */
+	float: left;
+	margin-top: 10px;
+	margin-left: 30px; }
+#bottomNav {
+	width: 350px;
+	margin-top: 10px;
+	margin-right: 30px;
+	float: right; }
+#bottomNav ul {
+	/* remove bullets*/
+	list-style-type: none;
+	float: left; }
+#bottomNav ul li {
+	/* left to right items */
+	display: inline;
+	/* space between items */
+	margin-right: 5px; }
+#bottomNav ul li a {
+	font-family: Open Sans, sans-serif;
+	font-size: 25px;
+	line-height: 1.5;
+	letter-spacing: -0.3px;
+	font-weight: bold;
+	color: #fff;
+	padding: 5px;
+	/* remove link decoration */
+	text-decoration: none;
+	/* transition color on hover */
+	transition: color 0.25s; }
+#bottomNav ul li a:hover {
+	color: #71B29B; }
+
+
+
+
+
+
+

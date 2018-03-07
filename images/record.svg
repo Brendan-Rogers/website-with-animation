@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 185.75 185.75">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-width: 14px;
+      }
+
+      .cls-1, .cls-4, .cls-5 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #f04c29;
+      }
+
+      .cls-3 {
+        fill: #231f20;
+      }
+
+      .cls-4, .cls-5 {
+        fill: none;
+      }
+
+      .cls-4 {
+        stroke-width: 4px;
+      }
+
+      .cls-5 {
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <title>record</title>
+  <g id="record">
+    <circle class="cls-1" cx="92.88" cy="92.88" r="85.88"/>
+    <circle class="cls-2" cx="92.88" cy="92.88" r="28.86"/>
+    <circle class="cls-3" cx="92.88" cy="92.88" r="5.44"/>
+  </g>
+  <g id="grooves1">
+    <path class="cls-4" d="M146,146.36A65.12,65.12,0,0,0,165.33,100" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-4" d="M53.68,146.07A65.16,65.16,0,0,0,100,165.33" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-4" d="M53.93,53.68A65.16,65.16,0,0,0,34.67,100" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-4" d="M146.19,53.81A65.12,65.12,0,0,0,100,34.67" transform="translate(-7.13 -7.13)"/>
+  </g>
+  <g id="grooves2">
+    <path class="cls-5" d="M145.27,100.18A45.16,45.16,0,0,0,132,68" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-5" d="M99.86,145.27A45.15,45.15,0,0,0,132,132" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-5" d="M54.73,99.86A45.15,45.15,0,0,0,68,132" transform="translate(-7.13 -7.13)"/>
+    <path class="cls-5" d="M100,54.73A45.13,45.13,0,0,0,68,68" transform="translate(-7.13 -7.13)"/>
+  </g>
+</svg>
